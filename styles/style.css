@@ -1,1 +1,23 @@
-/* место для вашего кода */
+.header {
+  align-content: center;
+  padding: 92px 24px 96px 24px;
+}
+.header_logo_image {
+  margin: auto;
+  width: 148px;
+  height: 105px;
+}
+.header_text {
+  list-style-type: none;
+} 
+.header_text1 {
+}
+
+.header_text2 {
+  
+  list-style: circle;
+}
+.header_text3 {
+  
+  list-style: circle;
+}
