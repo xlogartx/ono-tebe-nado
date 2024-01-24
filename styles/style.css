@@ -130,5 +130,47 @@ background-color: transparent;
 margin-left: 10px;
 margin-top: -12px;
 margin-right: -10px;
+}
+.lots {
+flex-direction: column;
+min-width: 1052px;
+display:flex;
+min-height: 100%;
+padding: 1229px 24px 1107px 24px;
+}
+.lots__heading {
+color: #000;
+font-family: Raleway, sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.lots__card-list {
+flex-grow: 3;
+}
+.lots__card-list-item {
 
+}
+.card-link {
+
+}
+.card-one {
+flex-grow: 1;
+}
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+.card-two {
+  flex-grow: 1;
+}
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+.card-three {
+  flex-grow: 1;
+}
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
