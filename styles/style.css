@@ -173,9 +173,7 @@ flex-wrap: wrap;
 justify-content: space-around;
 position: relative;
 }
-.card-link {
 
-}
 .lots__look-more-link{
 display: flex;
 justify-content: start;
@@ -232,14 +230,13 @@ padding-bottom: 100px;
 }
 
 .text_position3 {
-  padding-top: 30px;
+padding-top: 30px;
 }
 
 .card {
 flex-grow: 1;
 }
 .card_type_film {
-position: relative;
 background-image: url(../images/card-lot-01.jpg);
 width: 334px;
 height: 563px;
@@ -249,7 +246,6 @@ background-size: cover;
 }
 
 .card_type_book {
-/* position: relative; */
 background-image: url(../images/card-lot-02.jpg);
 width: 334px;
 height: 563px;
@@ -259,11 +255,82 @@ background-size: cover;
 }
 
 .card_type_picture {
-/* position: relative; */
 background-image: url(../images/card-lot-03.jpg);
 width: 334px;
 height: 563px;
 background-color: lightgray;
 background-position: center;
 background-size: cover;
+}
+
+.about {
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+justify-content: center;
+gap: 25px;
+position: relative;
+min-width: 1052px;
+height: 595px;
+padding: 320px 24px 386px 50px;
+}
+
+.about_column {
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+gap: 25px;
+width: 100%;
+max-width: 1200px;
+padding: 15px;
+}
+.about__logo {
+width: 240px;
+height: 240px;
+background-color: #000;
+border-radius: 50%;
+flex-shrink: 0;
+}
+
+.about__logo-image {
+width: 148px;
+height: 114px;
+transform: translate(33%, 54%);
+  }
+.about__text-chapter{
+display: inline-flex;
+padding-top: 3px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 100px;
+}
+.about__title {
+margin-top: 400px;
+margin-left: 52px;
+color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+.about__text1 {
+color: #000;
+margin-left: 52px;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 688px;
+  }
+.about__text2 {
+margin-top: -78px; 
+margin-left: 52px;
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 693px;
 }
