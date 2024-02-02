@@ -25,6 +25,7 @@
 }
 
 .header__links-list {
+  margin-left: -10px;
   font-weight: 450;
   font-size: 18px;
   font-style: normal;
@@ -33,12 +34,11 @@
   text-decoration: underline;
   text-underline-position: under;
   list-style: circle;
-  margin-left: -10px;
 }
 
 .header__link_active {
-  text-decoration: none;
   margin-left: 25px;
+  text-decoration: none;
 }
 
 .adress {
@@ -56,12 +56,12 @@
 
 .cover {
   position: relative;
+  height: auto;
+  padding: 170px 53px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: auto;
-  padding: 170px 53px 50px;
 }
 
 .overlay {
@@ -74,12 +74,12 @@
 .cover__title {
   position: relative;
   z-index: 2;
+  color: #ffffff;
   font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  text-transform: uppercase;
   letter-spacing: 30px;
-  color: #ffffff;
+  text-transform: uppercase;
 }
 .title__container {
   display: block;
@@ -91,17 +91,15 @@
 }
 
 .aligned-text_right {
-text-align: right;
-letter-spacing: 60px;
-
+  letter-spacing: 60px;
+  text-align: right;
 }
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
 .letter-spacing-extended-bottom {
-  letter-spacing: 30px;
   margin-right: -30px;
-  
+  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -129,19 +127,18 @@ letter-spacing: 60px;
 }
 
 .bet-button {
-  text-align: center;
   width: 256px;
   height: auto;
-  padding-top: 20px;
   margin-top: -15px;
   border: 1px solid;
+  padding-top: 20px;
   color: #fff;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
+  text-align: center;
   text-transform: uppercase;
   background: none;
   background-color: transparent;
-  font-family: Raleway, sans-serif;
-
 }
 
 .lots {
@@ -167,7 +164,10 @@ letter-spacing: 60px;
 }
 .lots__card-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Создание автоматических колонок с минимальной шириной 300px */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Создание автоматических колонок с минимальной шириной 300px */
   grid-gap: 20px; /* Отступ между карточками */
 }
 
@@ -205,7 +205,7 @@ letter-spacing: 60px;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  line-height: 120%; 
+  line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -218,7 +218,7 @@ letter-spacing: 60px;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  line-height: 120%; 
+  line-height: 120%;
 }
 
 .card-link {
@@ -241,9 +241,10 @@ letter-spacing: 60px;
 
 .card {
   flex-grow: 1;
-  width: 100%; 
-  height: 100%; 
-  }
+  width: 100%;
+  height: 100%;
+}
+
 .card_type_film {
   width: 334px;
   min-height: auto;
@@ -272,12 +273,12 @@ letter-spacing: 60px;
 }
 
 .about {
-  padding: 180px 50px;
+  position: relative;
   display: grid;
   grid-template-columns: 295px 1fr;
   gap: 25px;
-  position: relative;
-  }
+  padding: 180px 50px;
+}
 
 .about_column {
   display: flex;
@@ -290,31 +291,29 @@ letter-spacing: 60px;
   align-self: center;
   width: 240px;
   height: 240px;
-  background-color: #000;
   border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
+  width: 148px;
   object-fit: contain;
   object-position: top;
-  width: 148px;
-  
 }
 .about__text-chapter {
-  row-gap: 25px;
   display: flex;
   flex-direction: column;
+  row-gap: 25px;
   margin-left: 10px;
-    
 }
 .about__title {
   margin: 100px 0;
+  margin-left: 10px;
   color: #000;
+  font-weight: 700;
   font-size: 40px;
   line-height: normal;
-  font-weight: 700;
   text-transform: uppercase;
-  margin-left: 10px;
 }
 
 .about__text {
@@ -324,8 +323,7 @@ letter-spacing: 60px;
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
-  
-  }
+}
 
 .footer {
   display: flex;
@@ -350,7 +348,7 @@ letter-spacing: 60px;
 
 .footer__social-list {
   width: 250px;
- }
+}
 .footer__social-list-item {
   display: flex;
   gap: 48px;
